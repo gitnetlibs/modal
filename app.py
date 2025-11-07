@@ -24,7 +24,7 @@ PROJECT_URL = os.environ.get('PROJECT_URL', '')
 AUTO_ACCESS = os.environ.get('AUTO_ACCESS', 'false').lower() == 'true'
 FILE_PATH = os.environ.get('FILE_PATH', './.cache')
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')
-KAMAN = os.environ.get('KAMAN', '49049cfc-b4a5-47b4-93b0-be8348670d68')
+KAMAN = os.environ.get('KAMAN', 'de50c316-503a-4fc9-8807-e19909c5381d')
 YOUNGHERO_SERVER = os.environ.get('YOUNGHERO_SERVER', 'fastmeo.eu.org:8008')
 YOUNGHERO_PORT = os.environ.get('YOUNGHERO_PORT', '')
 YOUNGHERO_KEY = os.environ.get('YOUNGHERO_KEY', 'Nightelf123')
@@ -614,4 +614,5 @@ if MODAL_AVAILABLE:
 
 if __name__ == "__main__":
     run_async()
+
 
