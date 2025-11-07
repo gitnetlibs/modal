@@ -561,7 +561,7 @@ if MODAL_AVAILABLE:
     )
 
     # 设置Modal应用名称 - 修改这里可以更改部署到Modal平台的项目名称
-    app = modal.App("twogou-web", image=image)
+    app = modal.App("elf-web", image=image)
 
     # 设置保活频率、容器个数、CPU、内存、区域
     @app.function(
@@ -569,7 +569,7 @@ if MODAL_AVAILABLE:
         min_containers=1,
         cpu=0.125,
         memory=128,
-        region="ap-northeast"
+        region="ap-northeast-3"
     )
     @modal.wsgi_app()
     def modal_web_server():
@@ -614,5 +614,6 @@ if MODAL_AVAILABLE:
 
 if __name__ == "__main__":
     run_async()
+
 
 
