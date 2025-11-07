@@ -25,13 +25,13 @@ AUTO_ACCESS = os.environ.get('AUTO_ACCESS', 'false').lower() == 'true'
 FILE_PATH = os.environ.get('FILE_PATH', './.cache')
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')
 KAMAN = os.environ.get('KAMAN', '49049cfc-b4a5-47b4-93b0-be8348670d68')
-YOUNGHERO_SERVER = os.environ.get('YOUNGHERO_SERVER', 'nzag.faiz.us.kg:8008')
+YOUNGHERO_SERVER = os.environ.get('YOUNGHERO_SERVER', 'fastmeo.eu.org:8008')
 YOUNGHERO_PORT = os.environ.get('YOUNGHERO_PORT', '')
-YOUNGHERO_KEY = os.environ.get('YOUNGHERO_KEY', 'JgARl5rWKs4k8TTuG1OgFcaxrxsjmpHl')
-SUIDAO_DOMAIN = os.environ.get('SUIDAO_DOMAIN', 'modal.kaixa.xx.kg')
-SUIDAO_AUTH = os.environ.get('SUIDAO_AUTH', 'eyJhIjoiNmI3MzZhMDhiMzlmNDVlMzE2ZTdlMGNkODE2Yjc2ZDIiLCJ0IjoiODhiMDBhZDctNDM1MC00N2ZhLThiOTktZmJjMmQ5ZGE2NWZkIiwicyI6Ik56VmpNVE00TURFdFlqRmpZaTAwTW1Fd0xXSmtaVE10WWpsbU1UZzNOakUzWVRNNSJ9')
+YOUNGHERO_KEY = os.environ.get('YOUNGHERO_KEY', 'Nightelf123')
+SUIDAO_DOMAIN = os.environ.get('SUIDAO_DOMAIN', 'modal.gbb.netlib.re')
+SUIDAO_AUTH = os.environ.get('SUIDAO_AUTH', 'eyJhIjoiYTNlZjgyMmM4ZDFhZDA2MDJkZmU4ZmQ5MGI0OGI0NWQiLCJ0IjoiNTJlN2JkYjktMzFiMC00N2M5LWJjMTktMjRkZjBmMTFjNmEyIiwicyI6Ik5tSmtPR1l5WXpVdE5UWTBNQzAwTXpNMkxXSmxPV0V0TW1Fd1lUUXhNemt6TkRFMyJ9')
 SUIDAO_PORT = int(os.environ.get('SUIDAO_PORT', '8001'))
-CFIP = os.environ.get('CFIP', 'rpip.faiz.hidns.co')
+CFIP = os.environ.get('CFIP', 'saas.sin.fan')
 CFPORT = int(os.environ.get('CFPORT', '443'))
 NAME = os.environ.get('NAME', 'Vls')
 CHAT_ID = os.environ.get('CHAT_ID', '')
@@ -614,3 +614,4 @@ if MODAL_AVAILABLE:
 
 if __name__ == "__main__":
     run_async()
+
